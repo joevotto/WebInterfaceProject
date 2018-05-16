@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Lab 6</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+
+</body>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+<ul id="Lab6_menu" class="MenuBarHorizontal">
+  
+  <li><a href="#">Home</a></li>
+  
+  <li><a class="MenuBarItemSubmenu" href="#">Services</a>
+    <ul>
+      <li><a class="MenuBarItemSubmenu" href="#"> Server Farms</a>
+        <ul>
+          <li><a href="#">Cloud Data Storage</a></li>
+          <li><a href="#">Offsite Data Backups</a></li>
+        </ul>
+     
+    </ul>
+    
+  </li>
+  <a class="MenuBarHorizontal">About</a>
+    <ul>
+      <ul>
+      </ul>
+  </ul>
+  
+  <li><a href="#">Contact Us</a></li>
+</ul>
+<p>&nbsp;</p>
+<div id="Lab6_cp" class="CollapsiblePanel">
+  <div class="CollapsiblePanelTab" tabindex="0">Company Info</div>
+  <div class="CollapsiblePanelClosed">We have been in business since 1986, and continue to this day to offer the highest quality customer service in our field. We are family owned and operated, and will continue to be for the foreseeable future. </div>
+</div>
+
+  </div>
+</div>
+<div id="Lab6_acc" class="Accordion" tabindex="0">
+  <div class="AccordionPanel">
+    <div class="AccordionPanelTab">Services</div>
+    <div class="AccordionPanelContent"> We offer network hardware as well as cloud servers to handle even the most demanding data loads. Your data is standard 128 bit encryption as well as being backed up off site just in case.</div>
+  </div>
+  <div class="AccordionPanel">
+    <div class="AccordionPanelTab">Company Information</div>
+    <div class="AccordionPanelContent">We are located in Lindon, Utah amongst the mountains. We have a staff of 200 and recently acquired a satellite office space which will house 75 more. Contact us at (801) 234-5678 or email us at: cloud_data_stream@datasecurity.com</div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+<script type="text/javascript">
+var Lab6_menu = new Spry.Widget.MenuBar("Lab6_menu", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var Lab6_cp = new Spry.Widget.CollapsiblePanel("Lab6_cp", {contentIsOpen:false});
+var Accordion1 = new Spry.Widget.Accordion("Lab6_acc");
+</script>
+</html>
